@@ -1,0 +1,32 @@
+.movie-image {
+    -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+      mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 70%,  rgba(0,0,0,0.7) 80%, rgba(0,0,0,0));
+    object-fit: contain;
+}
+
+.controls:hover {
+    color: #09ADEF !important;
+}
+
+.custom-button, .custom-button:active, .custom-button:focus {
+    padding: 10px 20px !important;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 6px;
+    margin-right: 20px;
+    color: white;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.outline-custom, .outline-custom:focus, .outline-custom:active {
+    border: 1px solid #d6d6d6 !important;
+    background-color: transparent;
+    box-shadow: none !important;
+    outline: none !important;
+    background-color: transparent !important;
+}
+
+.outline-custom:hover {
+    background-color: transparent;
+}
